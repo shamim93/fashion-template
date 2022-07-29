@@ -1,0 +1,45 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "fASHION THEME",
+    "theme_version": "1.0.0",
+    "theme_author": "Shopify",
+    "theme_documentation_url": "https://github.com/Shopify/themekit",
+    "theme_support_url": "https://github.com/Shopify/themekit/issues"
+  },
+  {
+    "name":"Header Settings",
+    "settings":[
+      {
+        "type":"image_picker",
+        "id":"favIcon",
+        "label":"Add Your Favicon"
+      },
+      {
+        "type":"text",
+        "id":"textlogo",
+        "label":"Add Text as Logo"
+      },
+      {
+        "type":"image_picker",
+        "id":"sitelogo",
+        "label":"Site Logo"
+      },
+      {
+        "type":"range",
+        "id":"logoSize",
+        "min":60,
+        "max":140,
+        "step":1,
+        "unit":"px",
+        "label":"Logo Size",
+        "default":70
+      },
+      {
+        "type":"text",
+        "id":"phoneNumber",
+        "label":"Contact Number"
+      }
+    ]
+  }
+]
